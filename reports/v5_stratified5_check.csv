@@ -1,0 +1,4 @@
+exp_id,hypothesis_group,feature_set,model,target_mode,postprocess,mean_mae,std_mae,pred_mean,pred_std,pred_min,pred_max,notes
+v5_20260617_030554,D_kernel_latent_score,S2_core_derived,svr_rbf,quantile_target,raw,0.1473885081084513,0.005115291101895078,0.4750093730926332,0.184812007114047,0.0,1.0,stratified5; scaled; dense
+v5_20260617_030554,D_kernel_latent_score,S2_core_derived,svr_rbf,quantile_target,clip_0_1,0.1473885081084513,0.005115291101895078,0.4750093730926332,0.184812007114047,0.0,1.0,stratified5; scaled; dense
+v5_20260617_030554,D_kernel_latent_score,S2_core_derived,svr_rbf,quantile_target,clip_0_1_round2,0.14743333333333333,0.005110406050403427,0.47499,0.1847908253035635,0.0,1.0,stratified5; scaled; dense

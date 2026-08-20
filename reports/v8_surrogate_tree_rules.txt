@@ -1,0 +1,22 @@
+﻿|--- num__cholesterol_glucose_product <= 1.65
+|   |--- num__cholesterol <= 0.98
+|   |   |--- num__mean_working <= -0.04
+|   |   |   |--- num__bone_density <= 0.32
+|   |   |   |   |--- value: [0.42]
+|   |   |   |--- num__bone_density >  0.32
+|   |   |   |   |--- value: [0.36]
+|   |   |--- num__mean_working >  -0.04
+|   |   |   |--- num__cholesterol <= -0.60
+|   |   |   |   |--- value: [0.46]
+|   |   |   |--- num__cholesterol >  -0.60
+|   |   |   |   |--- value: [0.49]
+|   |--- num__cholesterol >  0.98
+|   |   |--- num__cholesterol <= 1.07
+|   |   |   |--- value: [0.33]
+|   |   |--- num__cholesterol >  1.07
+|   |   |   |--- num__cholesterol <= 1.52
+|   |   |   |   |--- value: [0.46]
+|   |   |   |--- num__cholesterol >  1.52
+|   |   |   |   |--- value: [0.37]
+|--- num__cholesterol_glucose_product >  1.65
+|   |--- value: [0.61]

@@ -1,0 +1,6 @@
+exp_id,model,postprocess,mean_mae,std_mae,pred_mean,pred_std,pred_min,pred_max,feature_set,notes
+v52_20260617_125948,svr_rbf_raw_S1_plus_cholesterol_glucose_product,clip_0_1_round2,0.13940999999999998,0.007625769339856239,0.4763666666666667,0.18912920321143253,0.0,1.0,S1_plus_cholesterol_glucose_product,S2 ablation with raw target RBF SVR
+v52_20260617_125948,svr_rbf_raw_S1_plus_all_S2,clip_0_1_round2,0.13941333333333333,0.007689903593930854,0.47672333333333333,0.18802663320343788,0.0,1.0,S1_plus_all_S2,S2 ablation with raw target RBF SVR
+v52_20260617_125948,svr_rbf_raw_S1_plus_glucose_cholesterol_ratio,clip_0_1_round2,0.13947333333333334,0.007598892056992721,0.47653000000000006,0.1889400924972012,0.0,1.0,S1_plus_glucose_cholesterol_ratio,S2 ablation with raw target RBF SVR
+v52_20260617_125948,svr_rbf_raw_S1_only,clip_0_1_round2,0.13965333333333332,0.007433178872336392,0.47642999999999996,0.18928452475159402,0.0,1.0,S1_only,S2 ablation with raw target RBF SVR
+v52_20260617_125948,svr_rbf_raw_S1_plus_bp,clip_0_1_round2,0.13974333333333333,0.007595548566409896,0.4765666666666667,0.1883678308579332,0.0,1.0,S1_plus_bp,S2 ablation with raw target RBF SVR

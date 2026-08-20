@@ -1,0 +1,17 @@
+exp_id,model,rule
+v61_20260617_160621,tree_depth3,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol <= 0.9827 AND num__mean_working <= -0.0385
+v61_20260617_160621,tree_depth3,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol <= 0.9827 AND num__mean_working > -0.0385
+v61_20260617_160621,tree_depth3,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol > 0.9827 AND num__cholesterol <= 1.0674
+v61_20260617_160621,tree_depth3,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol > 0.9827 AND num__cholesterol > 1.0674
+v61_20260617_160621,tree_depth3,num__cholesterol_glucose_product > 1.6463
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol <= 0.9827 AND num__mean_working <= -0.0385 AND num__bone_density <= 0.3176
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol <= 0.9827 AND num__mean_working <= -0.0385 AND num__bone_density > 0.3176
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol <= 0.9827 AND num__mean_working > -0.0385 AND num__map <= 1.0116 AND num__map <= -0.1279
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol <= 0.9827 AND num__mean_working > -0.0385 AND num__map <= 1.0116 AND num__map > -0.1279
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol <= 0.9827 AND num__mean_working > -0.0385 AND num__map > 1.0116 AND num__bmi <= -0.0465
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol <= 0.9827 AND num__mean_working > -0.0385 AND num__map > 1.0116 AND num__bmi > -0.0465
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol > 0.9827 AND num__cholesterol <= 1.0674
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol > 0.9827 AND num__cholesterol > 1.0674 AND num__cholesterol <= 1.4807 AND num__bmi <= 0.2599
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol > 0.9827 AND num__cholesterol > 1.0674 AND num__cholesterol <= 1.4807 AND num__bmi > 0.2599
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product <= 1.6463 AND num__cholesterol > 0.9827 AND num__cholesterol > 1.0674 AND num__cholesterol > 1.4807
+v61_20260617_160621,tree_depth5,num__cholesterol_glucose_product > 1.6463

@@ -1,0 +1,4 @@
+﻿candidate,C,gamma,path,changed_rows_vs_v532,mean_abs_diff_vs_v532,max_abs_diff_vs_v532,pred_mean,pred_std,pred_min,pred_max
+c1p0_g1p0632,1.0,1.0632,D:\python\stress\submissions\submission_rbf_svr_c1p0_g1p0632.csv,0,0.0,0.0,0.49649333333333334,0.19808273512740973,0.0,1.0
+c1p0_g1p06,1.0,1.06,D:\python\stress\submissions\submission_rbf_svr_c1p0_g1p06.csv,12,4.000000000000002e-05,0.010000000000000009,0.49648000000000003,0.19808249863798333,0.0,1.0
+c4p0_g1p0632,4.0,1.0632,D:\python\stress\submissions\submission_rbf_svr_c4p0_g1p0632.csv,0,0.0,0.0,0.49649333333333334,0.19808273512740973,0.0,1.0

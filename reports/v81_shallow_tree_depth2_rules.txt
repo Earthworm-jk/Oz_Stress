@@ -1,0 +1,7 @@
+﻿|--- num__cholesterol_glucose_product <= 1.65
+|   |--- num__cholesterol <= 0.98
+|   |   |--- value: [0.48]
+|   |--- num__cholesterol >  0.98
+|   |   |--- value: [0.41]
+|--- num__cholesterol_glucose_product >  1.65
+|   |--- value: [0.61]

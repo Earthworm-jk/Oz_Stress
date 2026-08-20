@@ -1,0 +1,91 @@
+﻿|--- num__cholesterol_glucose_product <= 1.65
+|   |--- num__cholesterol <= 0.98
+|   |   |--- num__mean_working <= -0.04
+|   |   |   |--- cat__medical_history_cat_high blood pressure <= 0.50
+|   |   |   |   |--- num__cholesterol <= -0.62
+|   |   |   |   |   |--- value: [0.47]
+|   |   |   |   |--- num__cholesterol >  -0.62
+|   |   |   |   |   |--- cat__medical_history_cat_Unknown <= 0.50
+|   |   |   |   |   |   |--- value: [0.46]
+|   |   |   |   |   |--- cat__medical_history_cat_Unknown >  0.50
+|   |   |   |   |   |   |--- num__diastolic_blood_pressure <= -0.12
+|   |   |   |   |   |   |   |--- value: [0.38]
+|   |   |   |   |   |   |--- num__diastolic_blood_pressure >  -0.12
+|   |   |   |   |   |   |   |--- value: [0.31]
+|   |   |   |--- cat__medical_history_cat_high blood pressure >  0.50
+|   |   |   |   |--- value: [0.33]
+|   |   |--- num__mean_working >  -0.04
+|   |   |   |--- num__cholesterol_glucose_product <= -1.40
+|   |   |   |   |--- value: [0.63]
+|   |   |   |--- num__cholesterol_glucose_product >  -1.40
+|   |   |   |   |--- num__cholesterol <= -0.60
+|   |   |   |   |   |--- num__diastolic_blood_pressure <= -0.42
+|   |   |   |   |   |   |--- num__weight <= 0.44
+|   |   |   |   |   |   |   |--- num__weight <= -0.43
+|   |   |   |   |   |   |   |   |--- value: [0.51]
+|   |   |   |   |   |   |   |--- num__weight >  -0.43
+|   |   |   |   |   |   |   |   |--- value: [0.43]
+|   |   |   |   |   |   |--- num__weight >  0.44
+|   |   |   |   |   |   |   |--- num__bmi <= 0.50
+|   |   |   |   |   |   |   |   |--- value: [0.48]
+|   |   |   |   |   |   |   |--- num__bmi >  0.50
+|   |   |   |   |   |   |   |   |--- value: [0.64]
+|   |   |   |   |   |--- num__diastolic_blood_pressure >  -0.42
+|   |   |   |   |   |   |--- num__glucose_cholesterol_ratio <= 1.03
+|   |   |   |   |   |   |   |--- num__height <= 0.89
+|   |   |   |   |   |   |   |   |--- value: [0.42]
+|   |   |   |   |   |   |   |--- num__height >  0.89
+|   |   |   |   |   |   |   |   |--- value: [0.30]
+|   |   |   |   |   |   |--- num__glucose_cholesterol_ratio >  1.03
+|   |   |   |   |   |   |   |--- num__height <= 0.34
+|   |   |   |   |   |   |   |   |--- value: [0.42]
+|   |   |   |   |   |   |   |--- num__height >  0.34
+|   |   |   |   |   |   |   |   |--- value: [0.55]
+|   |   |   |   |--- num__cholesterol >  -0.60
+|   |   |   |   |   |--- num__cholesterol_glucose_product <= 1.14
+|   |   |   |   |   |   |--- num__cholesterol_glucose_product <= 0.99
+|   |   |   |   |   |   |   |--- num__bone_density <= 0.59
+|   |   |   |   |   |   |   |   |--- value: [0.48]
+|   |   |   |   |   |   |   |--- num__bone_density >  0.59
+|   |   |   |   |   |   |   |   |--- value: [0.53]
+|   |   |   |   |   |   |--- num__cholesterol_glucose_product >  0.99
+|   |   |   |   |   |   |   |--- num__systolic_blood_pressure <= 0.11
+|   |   |   |   |   |   |   |   |--- value: [0.51]
+|   |   |   |   |   |   |   |--- num__systolic_blood_pressure >  0.11
+|   |   |   |   |   |   |   |   |--- value: [0.65]
+|   |   |   |   |   |--- num__cholesterol_glucose_product >  1.14
+|   |   |   |   |   |   |--- num__cholesterol <= 0.66
+|   |   |   |   |   |   |   |--- num__cholesterol_glucose_product <= 1.25
+|   |   |   |   |   |   |   |   |--- value: [0.28]
+|   |   |   |   |   |   |   |--- num__cholesterol_glucose_product >  1.25
+|   |   |   |   |   |   |   |   |--- value: [0.42]
+|   |   |   |   |   |   |--- num__cholesterol >  0.66
+|   |   |   |   |   |   |   |--- value: [0.51]
+|   |--- num__cholesterol >  0.98
+|   |   |--- num__cholesterol <= 1.01
+|   |   |   |--- value: [0.24]
+|   |   |--- num__cholesterol >  1.01
+|   |   |   |--- num__bmi <= 0.85
+|   |   |   |   |--- num__mean_working <= -0.02
+|   |   |   |   |   |--- value: [0.33]
+|   |   |   |   |--- num__mean_working >  -0.02
+|   |   |   |   |   |--- num__glucose_cholesterol_ratio <= -0.39
+|   |   |   |   |   |   |--- num__bone_density <= -0.76
+|   |   |   |   |   |   |   |--- value: [0.55]
+|   |   |   |   |   |   |--- num__bone_density >  -0.76
+|   |   |   |   |   |   |   |--- num__bone_density <= -0.40
+|   |   |   |   |   |   |   |   |--- value: [0.38]
+|   |   |   |   |   |   |   |--- num__bone_density >  -0.40
+|   |   |   |   |   |   |   |   |--- value: [0.47]
+|   |   |   |   |   |--- num__glucose_cholesterol_ratio >  -0.39
+|   |   |   |   |   |   |--- cat__sleep_pattern_cat_sleep difficulty <= 0.50
+|   |   |   |   |   |   |   |--- value: [0.30]
+|   |   |   |   |   |   |--- cat__sleep_pattern_cat_sleep difficulty >  0.50
+|   |   |   |   |   |   |   |--- value: [0.48]
+|   |   |   |--- num__bmi >  0.85
+|   |   |   |   |--- value: [0.57]
+|--- num__cholesterol_glucose_product >  1.65
+|   |--- num__glucose <= 1.52
+|   |   |--- value: [0.70]
+|   |--- num__glucose >  1.52
+|   |   |--- value: [0.55]

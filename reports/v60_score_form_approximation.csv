@@ -1,0 +1,13 @@
+exp_id,target,model,r2_in_sample,notes
+v60_20260617_154808,y100,tree_depth_2,0.010688137431537292,Explainability approximation only.
+v60_20260617_154808,y100,tree_depth_3,0.01889986669107968,Explainability approximation only.
+v60_20260617_154808,y100,tree_depth_4,0.02621695965290638,Explainability approximation only.
+v60_20260617_154808,pred100,tree_depth_2,0.011685143983961366,Explainability approximation only.
+v60_20260617_154808,pred100,tree_depth_3,0.022867939088096367,Explainability approximation only.
+v60_20260617_154808,pred100,tree_depth_4,0.03924469033876343,Explainability approximation only.
+v60_20260617_154808,residual100,tree_depth_2,0.006929928468933588,Explainability approximation only.
+v60_20260617_154808,residual100,tree_depth_3,0.014412346015955313,Explainability approximation only.
+v60_20260617_154808,residual100,tree_depth_4,0.023544723966930636,Explainability approximation only.
+v60_20260617_154808,y100,ridge_binned_features,0.04865944302751157,Binned additive score-form approximation.
+v60_20260617_154808,pred100,ridge_binned_features,0.03797510849389496,Binned additive score-form approximation.
+v60_20260617_154808,residual100,ridge_binned_features,0.029163978864671924,Binned additive score-form approximation.

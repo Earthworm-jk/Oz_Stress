@@ -1,0 +1,60 @@
+exp_id,target,model,rule
+v60_20260617_154808,y100,tree_depth_2,diastolic_blood_pressure <= 113.5000 AND glucose <= 95.5950
+v60_20260617_154808,y100,tree_depth_2,diastolic_blood_pressure <= 113.5000 AND glucose > 95.5950
+v60_20260617_154808,y100,tree_depth_2,diastolic_blood_pressure > 113.5000 AND bmi <= 25.5933
+v60_20260617_154808,y100,tree_depth_2,diastolic_blood_pressure > 113.5000 AND bmi > 25.5933
+v60_20260617_154808,y100,tree_depth_3,diastolic_blood_pressure <= 113.5000 AND glucose <= 95.5950 AND diastolic_blood_pressure <= 89.5000
+v60_20260617_154808,y100,tree_depth_3,diastolic_blood_pressure <= 113.5000 AND glucose <= 95.5950 AND diastolic_blood_pressure > 89.5000
+v60_20260617_154808,y100,tree_depth_3,diastolic_blood_pressure <= 113.5000 AND glucose > 95.5950 AND cholesterol <= 228.4700
+v60_20260617_154808,y100,tree_depth_3,diastolic_blood_pressure <= 113.5000 AND glucose > 95.5950 AND cholesterol > 228.4700
+v60_20260617_154808,y100,tree_depth_3,diastolic_blood_pressure > 113.5000 AND bmi <= 25.5933
+v60_20260617_154808,y100,tree_depth_3,diastolic_blood_pressure > 113.5000 AND bmi > 25.5933
+v60_20260617_154808,y100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND glucose <= 95.5950 AND diastolic_blood_pressure <= 89.5000
+v60_20260617_154808,y100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND glucose <= 95.5950 AND diastolic_blood_pressure > 89.5000
+v60_20260617_154808,y100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND glucose > 95.5950 AND cholesterol <= 228.4700 AND systolic_blood_pressure <= 123.5000
+v60_20260617_154808,y100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND glucose > 95.5950 AND cholesterol <= 228.4700 AND systolic_blood_pressure > 123.5000
+v60_20260617_154808,y100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND glucose > 95.5950 AND cholesterol > 228.4700 AND bone_density <= 0.1750
+v60_20260617_154808,y100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND glucose > 95.5950 AND cholesterol > 228.4700 AND bone_density > 0.1750
+v60_20260617_154808,y100,tree_depth_4,diastolic_blood_pressure > 113.5000 AND bmi <= 25.5933
+v60_20260617_154808,y100,tree_depth_4,diastolic_blood_pressure > 113.5000 AND bmi > 25.5933
+v60_20260617_154808,pred100,tree_depth_2,diastolic_blood_pressure <= 113.5000 AND cholesterol <= 267.1250
+v60_20260617_154808,pred100,tree_depth_2,diastolic_blood_pressure <= 113.5000 AND cholesterol > 267.1250
+v60_20260617_154808,pred100,tree_depth_2,diastolic_blood_pressure > 113.5000 AND bmi <= 25.5710
+v60_20260617_154808,pred100,tree_depth_2,diastolic_blood_pressure > 113.5000 AND bmi > 25.5710
+v60_20260617_154808,pred100,tree_depth_3,diastolic_blood_pressure <= 113.5000 AND cholesterol <= 267.1250 AND cholesterol <= 214.5200
+v60_20260617_154808,pred100,tree_depth_3,diastolic_blood_pressure <= 113.5000 AND cholesterol <= 267.1250 AND cholesterol > 214.5200
+v60_20260617_154808,pred100,tree_depth_3,diastolic_blood_pressure <= 113.5000 AND cholesterol > 267.1250 AND glucose <= 147.7550
+v60_20260617_154808,pred100,tree_depth_3,diastolic_blood_pressure <= 113.5000 AND cholesterol > 267.1250 AND glucose > 147.7550
+v60_20260617_154808,pred100,tree_depth_3,diastolic_blood_pressure > 113.5000 AND bmi <= 25.5710
+v60_20260617_154808,pred100,tree_depth_3,diastolic_blood_pressure > 113.5000 AND bmi > 25.5710
+v60_20260617_154808,pred100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND cholesterol <= 267.1250 AND cholesterol <= 214.5200 AND diastolic_blood_pressure <= 89.5000
+v60_20260617_154808,pred100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND cholesterol <= 267.1250 AND cholesterol <= 214.5200 AND diastolic_blood_pressure > 89.5000
+v60_20260617_154808,pred100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND cholesterol <= 267.1250 AND cholesterol > 214.5200 AND bone_density <= 1.3750
+v60_20260617_154808,pred100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND cholesterol <= 267.1250 AND cholesterol > 214.5200 AND bone_density > 1.3750
+v60_20260617_154808,pred100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND cholesterol > 267.1250 AND glucose <= 147.7550 AND diastolic_blood_pressure <= 94.5000
+v60_20260617_154808,pred100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND cholesterol > 267.1250 AND glucose <= 147.7550 AND diastolic_blood_pressure > 94.5000
+v60_20260617_154808,pred100,tree_depth_4,diastolic_blood_pressure <= 113.5000 AND cholesterol > 267.1250 AND glucose > 147.7550
+v60_20260617_154808,pred100,tree_depth_4,diastolic_blood_pressure > 113.5000 AND bmi <= 25.5710
+v60_20260617_154808,pred100,tree_depth_4,diastolic_blood_pressure > 113.5000 AND bmi > 25.5710
+v60_20260617_154808,residual100,tree_depth_2,bone_density <= 1.5650 AND glucose <= 127.6250
+v60_20260617_154808,residual100,tree_depth_2,bone_density <= 1.5650 AND glucose > 127.6250
+v60_20260617_154808,residual100,tree_depth_2,bone_density > 1.5650 AND cholesterol <= 215.8350
+v60_20260617_154808,residual100,tree_depth_2,bone_density > 1.5650 AND cholesterol > 215.8350
+v60_20260617_154808,residual100,tree_depth_3,bone_density <= 1.5650 AND glucose <= 127.6250 AND glucose <= 122.7750
+v60_20260617_154808,residual100,tree_depth_3,bone_density <= 1.5650 AND glucose <= 127.6250 AND glucose > 122.7750
+v60_20260617_154808,residual100,tree_depth_3,bone_density <= 1.5650 AND glucose > 127.6250 AND bone_density <= 0.8850
+v60_20260617_154808,residual100,tree_depth_3,bone_density <= 1.5650 AND glucose > 127.6250 AND bone_density > 0.8850
+v60_20260617_154808,residual100,tree_depth_3,bone_density > 1.5650 AND cholesterol <= 215.8350
+v60_20260617_154808,residual100,tree_depth_3,bone_density > 1.5650 AND cholesterol > 215.8350 AND bone_density <= 1.6950
+v60_20260617_154808,residual100,tree_depth_3,bone_density > 1.5650 AND cholesterol > 215.8350 AND bone_density > 1.6950
+v60_20260617_154808,residual100,tree_depth_4,bone_density <= 1.5650 AND glucose <= 127.6250 AND glucose <= 122.7750 AND bmi <= 29.6627
+v60_20260617_154808,residual100,tree_depth_4,bone_density <= 1.5650 AND glucose <= 127.6250 AND glucose <= 122.7750 AND bmi > 29.6627
+v60_20260617_154808,residual100,tree_depth_4,bone_density <= 1.5650 AND glucose <= 127.6250 AND glucose > 122.7750 AND systolic_blood_pressure <= 146.5000
+v60_20260617_154808,residual100,tree_depth_4,bone_density <= 1.5650 AND glucose <= 127.6250 AND glucose > 122.7750 AND systolic_blood_pressure > 146.5000
+v60_20260617_154808,residual100,tree_depth_4,bone_density <= 1.5650 AND glucose > 127.6250 AND bone_density <= 0.8850 AND diastolic_blood_pressure <= 104.5000
+v60_20260617_154808,residual100,tree_depth_4,bone_density <= 1.5650 AND glucose > 127.6250 AND bone_density <= 0.8850 AND diastolic_blood_pressure > 104.5000
+v60_20260617_154808,residual100,tree_depth_4,bone_density <= 1.5650 AND glucose > 127.6250 AND bone_density > 0.8850 AND systolic_blood_pressure <= 125.5000
+v60_20260617_154808,residual100,tree_depth_4,bone_density <= 1.5650 AND glucose > 127.6250 AND bone_density > 0.8850 AND systolic_blood_pressure > 125.5000
+v60_20260617_154808,residual100,tree_depth_4,bone_density > 1.5650 AND cholesterol <= 215.8350
+v60_20260617_154808,residual100,tree_depth_4,bone_density > 1.5650 AND cholesterol > 215.8350 AND bone_density <= 1.6950
+v60_20260617_154808,residual100,tree_depth_4,bone_density > 1.5650 AND cholesterol > 215.8350 AND bone_density > 1.6950

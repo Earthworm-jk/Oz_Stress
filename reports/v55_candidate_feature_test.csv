@@ -1,0 +1,8 @@
+exp_id,candidate,mean_mae,pred_mean,pred_std,pred_min,pred_max,notes
+v55_20260617_142824,sleep_risk_order_revised,0.13486666666666666,0.4768966666666667,0.195581747773771,0.0,1.0,Raw RBF candidate feature test against v54 sentinel150 baseline.
+v55_20260617_142824,baseline,0.13488666666666665,0.47696333333333335,0.19557307653400868,0.0,1.0,Raw RBF candidate feature test against v54 sentinel150 baseline.
+v55_20260617_142824,activity_risk_order_revised,0.13488666666666665,0.47696333333333335,0.19557307653400868,0.0,1.0,Raw RBF candidate feature test against v54 sentinel150 baseline.
+v55_20260617_142824,mean_working_missing,0.13552666666666666,0.47706333333333334,0.19531579235126592,0.0,1.0,Raw RBF candidate feature test against v54 sentinel150 baseline.
+v55_20260617_142824,mean_working_high_12plus,0.13844,0.47405,0.1904483859104577,0.0,1.0,Raw RBF candidate feature test against v54 sentinel150 baseline.
+v55_20260617_142824,missing_and_high12,0.13900333333333334,0.47418666666666665,0.19021917078254746,0.0,1.0,Raw RBF candidate feature test against v54 sentinel150 baseline.
+v55_20260617_142824,mean_working_high_11plus,0.14311000000000001,0.4732133333333334,0.1854971991500673,0.0,1.0,Raw RBF candidate feature test against v54 sentinel150 baseline.

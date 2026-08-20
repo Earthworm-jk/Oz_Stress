@@ -1,0 +1,7 @@
+gender,age,height,weight,cholesterol,systolic_blood_pressure,diastolic_blood_pressure,glucose,bone_density,activity,smoke_status,medical_history,family_medical_history,sleep_pattern,edu_level,mean_working,count,target_nunique,target_min,target_max,target_std
+F,72,164.03,60.91,233.38,144,96,147.83,0.58,intense,current-smoker,high blood pressure,high blood pressure,normal,__MISSING__,,2,1,0.33,0.33,0.0
+F,83,160.14,71.43,289.1,150,97,151.56,0.56,moderate,non-smoker,diabetes,diabetes,normal,__MISSING__,,2,1,0.96,0.96,0.0
+F,89,149.26,85.83,236.57,179,102,140.53,0.19,moderate,current-smoker,__MISSING__,__MISSING__,normal,bachelors degree,,2,1,0.1,0.1,0.0
+M,69,185.78,68.63,206.74,158,92,137.26,0.48,intense,ex-smoker,high blood pressure,__MISSING__,oversleeping,graduate degree,,2,1,0.17,0.17,0.0
+M,77,179.8,65.47,193.6,150,93,151.38,0.49,moderate,ex-smoker,high blood pressure,diabetes,sleep difficulty,__MISSING__,,2,1,0.83,0.83,0.0
+M,78,174.01,92.52,225.64,166,109,112.72,0.64,intense,non-smoker,high blood pressure,heart disease,sleep difficulty,bachelors degree,,2,1,0.85,0.85,0.0

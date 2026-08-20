@@ -1,0 +1,25 @@
+﻿|--- num__cholesterol_glucose_product <= 1.65
+|   |--- num__cholesterol <= 0.98
+|   |   |--- num__mean_working <= -0.04
+|   |   |   |--- cat__medical_history_cat_high blood pressure <= 0.50
+|   |   |   |   |--- value: [0.41]
+|   |   |   |--- cat__medical_history_cat_high blood pressure >  0.50
+|   |   |   |   |--- value: [0.33]
+|   |   |--- num__mean_working >  -0.04
+|   |   |   |--- num__cholesterol_glucose_product <= -1.40
+|   |   |   |   |--- value: [0.63]
+|   |   |   |--- num__cholesterol_glucose_product >  -1.40
+|   |   |   |   |--- value: [0.48]
+|   |--- num__cholesterol >  0.98
+|   |   |--- num__cholesterol <= 1.01
+|   |   |   |--- value: [0.24]
+|   |   |--- num__cholesterol >  1.01
+|   |   |   |--- num__bmi <= 0.85
+|   |   |   |   |--- value: [0.41]
+|   |   |   |--- num__bmi >  0.85
+|   |   |   |   |--- value: [0.57]
+|--- num__cholesterol_glucose_product >  1.65
+|   |--- num__glucose <= 1.52
+|   |   |--- value: [0.70]
+|   |--- num__glucose >  1.52
+|   |   |--- value: [0.55]

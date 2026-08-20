@@ -1,0 +1,4 @@
+exp_id,candidate,seed,n_splits,postprocess,mean_mae,std_mae,pred_mean,pred_std,pred_min,pred_max,pred_endpoint_0_count,pred_endpoint_1_count,sentinel_value,train_mean_working_median,train_mean_working_iqr,scaled_sentinel_value,improvement_vs_sentinel99,decision
+v531_20260617_190253,sentinel99,42,10,clip_0_1_round2,0.13491666666666666,0.008082021657609812,0.47696000000000005,0.19551325669763378,0.0,1.0,10,10,99.0,9.0,2.0,45.0,0.0,primary reference
+v531_20260617_190253,sentinel150,42,10,clip_0_1_round2,0.13488666666666665,0.008080416808709138,0.47696333333333335,0.19557307653400868,0.0,1.0,10,10,150.0,9.0,2.0,70.5,3.0000000000002247e-05,micro-gamble; prefer 150 for explanation if used
+v531_20260617_190253,sentinel999,42,10,clip_0_1_round2,0.13488666666666665,0.008095284406963705,0.47696333333333335,0.19558432895335182,0.0,1.0,10,10,999.0,9.0,2.0,495.0,3.0000000000002247e-05,micro-gamble; prefer 150 for explanation if used

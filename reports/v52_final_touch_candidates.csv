@@ -1,0 +1,6 @@
+exp_id,candidate,postprocess,mae,pred_mean,pred_std,pred_min,pred_max,notes
+v52_20260617_125948,quantile_rbf,clip_0_1_round2,0.13760666666666665,0.47446999999999995,0.19257071495969133,0.0,1.0,OOF final touch candidate; no LB-based tuning
+v52_20260617_125948,blend_0p8_raw_0p2_quantile,clip_0_1_round2,0.13920666666666667,0.47661,0.18849116037411337,0.0,1.0,OOF final touch candidate; no LB-based tuning
+v52_20260617_125948,blend_0p9_raw_0p1_quantile,clip_0_1_round2,0.13932666666666668,0.47669000000000006,0.18821747839416425,0.0,1.0,OOF final touch candidate; no LB-based tuning
+v52_20260617_125948,raw_rbf,clip_0_1_round2,0.13941333333333333,0.47672333333333333,0.18802663320343788,0.0,1.0,OOF final touch candidate; no LB-based tuning
+v52_20260617_125948,blend_0p9_raw_0p1_v3,clip_0_1_round2,0.14246666666666666,0.4767633333333333,0.18189315278087045,0.0,1.0,OOF final touch candidate; no LB-based tuning

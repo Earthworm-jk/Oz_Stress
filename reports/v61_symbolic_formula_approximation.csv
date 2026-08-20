@@ -1,0 +1,5 @@
+exp_id,target,model,mae,r2,formula_complexity,notes
+v61_20260617_160621,y100,elasticnet_poly_degree_1,24.86377388399601,0.005640088762404183,12,Sparse formula-like fallback; symbolic packages not installed/used.
+v61_20260617_160621,y100,elasticnet_poly_degree_2,24.461092423713776,0.03176256383177367,88,Sparse formula-like fallback; symbolic packages not installed/used.
+v61_20260617_160621,pred100,elasticnet_poly_degree_1,12.475713268368485,0.008484629076363048,12,Sparse formula-like fallback; symbolic packages not installed/used.
+v61_20260617_160621,pred100,elasticnet_poly_degree_2,12.654596509631977,0.0381826851785817,88,Sparse formula-like fallback; symbolic packages not installed/used.

@@ -1,0 +1,3 @@
+exp_id,feature_version,model,postprocess,mean_mae,std_mae,pred_std_oof,pred_min_oof,pred_max_oof,notes
+v45_20260617_022101,v45_v3_exact_multiseed,extratrees_v45_v3_exact_5seed,clip_0_1_round2,0.18005666666666664,0.0061519825169524655,0.1761444069684236,0.0,1.0,"V3 exact feature pipeline; ExtraTrees seeds averaged [42, 2024, 777, 1004, 2026]; no target encoding"
+v45_20260617_022101,v45_v3_exact_multiseed,extratrees_v45_v3_exact_5seed,clip_0_1,0.1801610913333332,0.006097823376577689,0.17596514139226593,0.000702,0.999868,"V3 exact feature pipeline; ExtraTrees seeds averaged [42, 2024, 777, 1004, 2026]; no target encoding"

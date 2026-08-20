@@ -1,0 +1,17 @@
+exp_id,method,feature,importance_mae_delta_mean,importance_mae_delta_std,base_sample_mae,notes
+v55_20260617_142824,raw_column_permutation_importance,glucose,0.15169999999999997,0.0037426728417001634,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,systolic_blood_pressure,0.14936000000000002,0.0018885973631242977,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,edu_level,0.14678666666666665,0.004311674075499348,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,smoke_status,0.14631333333333332,0.004371468098171746,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,medical_history,0.14531999999999998,0.0009226050075736681,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,family_medical_history,0.14483333333333334,0.009860331299369902,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,diastolic_blood_pressure,0.14281333333333332,0.0049795716013863525,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,cholesterol,0.13846666666666665,0.004503746588489778,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,weight,0.13632,0.005169874273132759,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,height,0.12898,0.0030360500654633533,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,activity,0.11352666666666666,0.0026934240908801123,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,sleep_pattern,0.10470666666666666,0.002116254553056724,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,bone_density,0.09277333333333333,0.003624932183273685,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,age,0.0838,0.004560307007209041,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,gender,0.07897333333333334,0.007483991804734509,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.
+v55_20260617_142824,raw_column_permutation_importance,mean_working,0.07072,0.0060395032908344415,0.0,Direct RBF pipeline explanation fallback because shap is unavailable.

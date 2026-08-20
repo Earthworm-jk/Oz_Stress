@@ -1,0 +1,4 @@
+left,right,different_row_count,mean_abs_diff,max_abs_diff,prediction_correlation,value_count_abs_diff_sum,left_endpoint_0_count,left_endpoint_1_count,right_endpoint_0_count,right_endpoint_1_count
+sentinel99,sentinel150,18,5.999999999999994e-05,0.010000000000000009,0.9999923140037379,32,4,5,4,5
+sentinel99,sentinel999,29,9.666666666666664e-05,0.010000000000000009,0.9999876080646528,36,4,5,4,5
+sentinel150,sentinel999,13,4.3333333333333375e-05,0.010000000000000009,0.9999944287632772,24,4,5,4,5

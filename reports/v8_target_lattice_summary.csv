@@ -1,0 +1,2 @@
+﻿exp_id,n_rows,target_min,target_max,unique_target_count,unique_y100_count,missing_y100_values_count,max_grid_deviation,rows_exact_integer_y100,top_frequency_score,top_frequency_count
+v8_20260618_102726,3000,0.0,1.0,101,101,0,7.105427357601002e-15,3000,12,44

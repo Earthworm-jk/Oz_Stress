@@ -1,0 +1,8 @@
+exp_id,calibration,postprocess,mean_mae,pred_mean,pred_std,notes
+v60_20260617_154808,none,round2,0.13491666666666666,0.47696000000000005,0.19551325669763378,Baseline OOF.
+v60_20260617_154808,linear,clip,0.13678293229009675,0.4821033074172078,0.19627357183766334,Fold-safe OOF calibration diagnostic; not fit/evaluated on same fold.
+v60_20260617_154808,linear,round2,0.13684333333333332,0.48322000000000004,0.1975948198653308,Fold-safe OOF calibration diagnostic; not fit/evaluated on same fold.
+v60_20260617_154808,isotonic,round2,0.1373,0.4825366666666666,0.19652533184700324,Fold-safe OOF calibration diagnostic; not fit/evaluated on same fold.
+v60_20260617_154808,isotonic,clip,0.13761098699709265,0.48223126371391617,0.19727701384509388,Fold-safe OOF calibration diagnostic; not fit/evaluated on same fold.
+v60_20260617_154808,piecewise_20,clip,0.14747331026329838,0.4818928131834189,0.19519110253919691,Fold-safe OOF calibration diagnostic; not fit/evaluated on same fold.
+v60_20260617_154808,piecewise_20,round2,0.14749333333333334,0.48257,0.19489781122152103,Fold-safe OOF calibration diagnostic; not fit/evaluated on same fold.

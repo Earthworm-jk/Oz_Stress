@@ -1,0 +1,13 @@
+﻿|--- num__cholesterol_glucose_product <= 1.65
+|   |--- num__cholesterol <= 0.98
+|   |   |--- num__mean_working <= -0.04
+|   |   |   |--- value: [0.39]
+|   |   |--- num__mean_working >  -0.04
+|   |   |   |--- value: [0.48]
+|   |--- num__cholesterol >  0.98
+|   |   |--- num__cholesterol <= 1.07
+|   |   |   |--- value: [0.33]
+|   |   |--- num__cholesterol >  1.07
+|   |   |   |--- value: [0.44]
+|--- num__cholesterol_glucose_product >  1.65
+|   |--- value: [0.61]

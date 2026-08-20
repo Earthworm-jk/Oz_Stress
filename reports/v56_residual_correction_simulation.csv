@@ -1,0 +1,7 @@
+exp_id,left_feature,left_value,right_feature,right_value,count,residual_mean,correction_fraction,mae,notes
+v56_20260617_150011,mean_working_group,11,medical_history,Unknown,54,13.75925925925926,0.1,0.13488999999999998,OOF-only diagnostic; not used for submission
+v56_20260617_150011,mean_working_group,11,medical_history,Unknown,54,13.75925925925926,0.3,0.13488999999999998,OOF-only diagnostic; not used for submission
+v56_20260617_150011,mean_working_group,11,medical_history,Unknown,54,13.75925925925926,0.2,0.13489,OOF-only diagnostic; not used for submission
+v56_20260617_150011,mean_working_group,11,family_medical_history,Unknown,64,11.234375,0.1,0.13491666666666666,OOF-only diagnostic; not used for submission
+v56_20260617_150011,mean_working_group,11,family_medical_history,Unknown,64,11.234375,0.2,0.13494333333333333,OOF-only diagnostic; not used for submission
+v56_20260617_150011,mean_working_group,11,family_medical_history,Unknown,64,11.234375,0.3,0.13497,OOF-only diagnostic; not used for submission

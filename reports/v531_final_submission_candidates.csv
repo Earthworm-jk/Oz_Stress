@@ -1,0 +1,4 @@
+﻿submission_file,candidate,CV_MAE,known_LB_MAE,priority,recommendation,exp_id
+v531_single_sentinel99_reproduce.csv,sentinel99 single full-train reproduction,0.13491666666666666,0.13023,1,기존 LB 0.13023 기준의 가장 설명 가능한 주 제출 후보,v531_20260617_190253
+v531_sentinel99_seed5_ensemble.csv,sentinel99 5-seed fold-model ensemble,0.13540666666666668,,4,not recommended; keep v5.3 sentinel99,v531_20260617_190253
+v531_single_sentinel150.csv,sentinel150 single full-train,0.13488666666666665,,3,sentinel99와 test 차이가 매우 작을 때만 micro-gamble,v531_20260617_190253

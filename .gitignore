@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+
+# Local tooling
+.vscode/
+.idea/
+
+# Competition source data and generated submissions
+open/
+submissions/
+reports/*oof*
+
+# Derived copies of personal documents
+reports/stress_report_extracted_text.txt
+reports/stress_report_pages/
+reports/*private*
+kakao_rwe_handoff/
+
+# Personal documents and archives
+*.pdf
+*.zip

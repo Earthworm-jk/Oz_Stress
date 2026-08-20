@@ -1,0 +1,2 @@
+exp_id,model,mean_mae,pred_mean,pred_std,notes
+v60_20260617_154808,ExtraTreesClassifier_expected_value,0.20883000000000002,0.48121333333333327,0.07941807245394247,Ordinal/grid diagnostic only; not a submission candidate.

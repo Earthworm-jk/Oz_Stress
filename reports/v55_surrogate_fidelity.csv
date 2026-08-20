@@ -1,0 +1,2 @@
+exp_id,surrogate,target,mae_to_rbf_pred,correlation,r2,notes
+v55_20260617_142824,ExtraTreesRegressor,v54_rbf_oof_prediction,0.06328648090702933,0.9507027426412608,0.8159356622069924,10-fold surrogate fidelity against RBF OOF predictions.

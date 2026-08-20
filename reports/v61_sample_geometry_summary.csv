@@ -1,0 +1,2 @@
+exp_id,pca_explained_var_1,pca_explained_var_2,feature_distance_y_absdiff_corr,missing_vs_observed_center_distance,notes
+v61_20260617_160621,0.21304644266039388,0.10048055789964977,0.007457048111266761,2.3284172215176637,Train-only geometry diagnostic on sentinel99 preprocessing.

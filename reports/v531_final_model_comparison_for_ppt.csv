@@ -1,0 +1,10 @@
+﻿version,model,key_idea,CV_MAE,LB_MAE,interpretation,final_decision,exp_id
+linear_baselines,Ridge / ElasticNet / LinearSVR,simple additive scorecard check,0.2445,,단순 선형 가산식만으로는 stress_score 생성식을 충분히 설명하지 못함,not candidate,v531_20260617_190253
+v3,ExtraTrees,tree-style binned scorecard,0.17986,0.16743,구간형 효과를 일부 포착했지만 RBF보다 약함,superseded,v531_20260617_190253
+v5.1,raw RBF SVR S2,smooth nonlinear latent score,0.139413,0.13458,0.01 grid 뒤의 연속 latent score surface 가설을 강하게 지지,superseded,v531_20260617_190253
+v5.3,raw RBF SVR + sentinel99,mean_working missing as out-of-range state,0.13491666666666666,0.13023,결측을 정상 근무시간 밖 상태로 분리했을 때 큰 개선,primary reference,v531_20260617_190253
+v7,MLPRegressor,neural smooth nonlinear model,0.21836333333333333,,작은 tabular 환경에서는 RBF SVR이 더 안정적,not candidate,v531_20260617_190253
+v5.3.1,sentinel99 seed5 CV ensemble,fold seed variance check,0.13540666666666668,,seed 평균이 single seed42 대비 안정화되는지 확인,not recommended; keep v5.3 sentinel99,v531_20260617_190253
+v5.3.1,sentinel99,out-of-range sentinel micro-check,0.13491666666666666,,수치 자체보다 정상 범위 밖 분리 효과를 확인,primary reference,v531_20260617_190253
+v5.3.1,sentinel150,out-of-range sentinel micro-check,0.13488666666666665,,수치 자체보다 정상 범위 밖 분리 효과를 확인,micro-gamble; prefer 150 for explanation if used,v531_20260617_190253
+v5.3.1,sentinel999,out-of-range sentinel micro-check,0.13488666666666665,,수치 자체보다 정상 범위 밖 분리 효과를 확인,micro-gamble; prefer 150 for explanation if used,v531_20260617_190253

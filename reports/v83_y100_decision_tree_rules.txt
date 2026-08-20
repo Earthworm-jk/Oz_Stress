@@ -1,0 +1,46 @@
+﻿|--- num__mw_high_12plus <= 0.50
+|   |--- num__mean_working <= -0.04
+|   |   |--- num__cholesterol <= 0.07
+|   |   |   |--- cat__edu_level_cat_bachelors degree <= 0.50
+|   |   |   |   |--- num__weight <= 0.02
+|   |   |   |   |   |--- value: [41.92]
+|   |   |   |   |--- num__weight >  0.02
+|   |   |   |   |   |--- value: [33.16]
+|   |   |   |--- cat__edu_level_cat_bachelors degree >  0.50
+|   |   |   |   |--- value: [27.93]
+|   |   |--- num__cholesterol >  0.07
+|   |   |   |--- value: [25.61]
+|   |--- num__mean_working >  -0.04
+|   |   |--- num__rule_mw11_family_missing <= 0.50
+|   |   |   |--- num__diastolic_blood_pressure <= 1.42
+|   |   |   |   |--- num__cholesterol_glucose_product <= -1.40
+|   |   |   |   |   |--- value: [63.66]
+|   |   |   |   |--- num__cholesterol_glucose_product >  -1.40
+|   |   |   |   |   |--- num__cholesterol <= -1.37
+|   |   |   |   |   |   |--- value: [32.34]
+|   |   |   |   |   |--- num__cholesterol >  -1.37
+|   |   |   |   |   |   |--- value: [47.59]
+|   |   |   |--- num__diastolic_blood_pressure >  1.42
+|   |   |   |   |--- cat__sleep_pattern_cat_normal <= 0.50
+|   |   |   |   |   |--- num__gender_code <= 0.50
+|   |   |   |   |   |   |--- value: [40.89]
+|   |   |   |   |   |--- num__gender_code >  0.50
+|   |   |   |   |   |   |--- value: [57.60]
+|   |   |   |   |--- cat__sleep_pattern_cat_normal >  0.50
+|   |   |   |   |   |--- num__bmi <= 0.06
+|   |   |   |   |   |   |--- value: [57.52]
+|   |   |   |   |   |--- num__bmi >  0.06
+|   |   |   |   |   |   |--- value: [81.44]
+|   |   |--- num__rule_mw11_family_missing >  0.50
+|   |   |   |--- num__cholesterol <= -0.34
+|   |   |   |   |--- value: [57.36]
+|   |   |   |--- num__cholesterol >  -0.34
+|   |   |   |   |--- value: [69.82]
+|--- num__mw_high_12plus >  0.50
+|   |--- num__weight <= 0.29
+|   |   |--- num__glucose <= -0.14
+|   |   |   |--- value: [73.48]
+|   |   |--- num__glucose >  -0.14
+|   |   |   |--- value: [81.00]
+|   |--- num__weight >  0.29
+|   |   |--- value: [61.92]

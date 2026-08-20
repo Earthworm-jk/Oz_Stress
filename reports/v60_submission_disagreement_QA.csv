@@ -1,0 +1,7 @@
+left,right,mean_abs_diff,max_abs_diff,num_different_rows,endpoint_changed_rows,notes
+v51_raw,v53_sentinel99,0.00537,0.26,638,5,QA only; not used for model selection.
+v51_raw,v54_sentinel150,0.005363333333333332,0.26,636,5,QA only; not used for model selection.
+v51_raw,v54_sentinel999,0.005359999999999999,0.26,635,5,QA only; not used for model selection.
+v53_sentinel99,v54_sentinel150,5.999999999999994e-05,0.010000000000000009,18,0,QA only; not used for model selection.
+v53_sentinel99,v54_sentinel999,9.666666666666664e-05,0.010000000000000009,29,0,QA only; not used for model selection.
+v54_sentinel150,v54_sentinel999,4.3333333333333375e-05,0.010000000000000009,13,0,QA only; not used for model selection.
